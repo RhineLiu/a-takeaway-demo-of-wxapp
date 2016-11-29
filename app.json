@@ -1,4 +1,5 @@
 {
+	"debug": true,
 	"pages": [
 		"page/index/index",
 		"page/index/search",
@@ -37,6 +38,5 @@
 		"connectSocket": 10000,
 		"uploadFile": 10000,
 		"downloadFile": 10000
-	},
-	"debug": true
+	}
 }

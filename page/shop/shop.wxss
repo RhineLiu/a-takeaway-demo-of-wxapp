@@ -133,18 +133,18 @@ page {
 	position: absolute;
 	right: 30rpx;
 	bottom: 30rpx;
-	width: 64rpx;
-	height: 64rpx;
+	width: 80rpx;
+	height: 80rpx;
 	background: #feb70f;
 	border-radius: 50%;
 }
 .goods-container .goods .addCart image {
 	pointer-events: none;
 	position: absolute;
-	left: 20rpx;
-	top: 20rpx;
-	width: 24rpx;
-	height: 24rpx;
+	left: 25rpx;
+	top: 25rpx;
+	width: 30rpx;
+	height: 30rpx;
 }
 
 .cart-detail, .cart-detail .mask {

@@ -51,17 +51,17 @@ Page({
 		switch (e.target.dataset.id) {
 			case '1':
 				this.data.shops.sort(function (a, b) {
-					return a.id > b.id;
+					return a.id - b.id;
 				});
 				break;
 			case '2':
 				this.data.shops.sort(function (a, b) {
-					return a.sales < b.sales;
+					return b.sales - a.sales;
 				});
 				break;
 			case '3':
 				this.data.shops.sort(function (a, b) {
-					return a.distance > b.distance;
+					return a.distance - b.distance;
 				});
 				break;
 		}
